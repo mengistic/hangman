@@ -1,4 +1,4 @@
-* Hangman game
+# Hangman game
 
 Free time project, nothing serious. To run the code,
 
