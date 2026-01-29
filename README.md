@@ -7,6 +7,9 @@ python game.py
 ```
 
 
+![Hangman example](./example/example.gif)
+
+
 
 ## Limitation
 These are the limitations that come from the by product of the code.
@@ -15,22 +18,6 @@ These are the limitations that come from the by product of the code.
 - ~~does not have indication of the letters we have typed.~~
 - does not have hint. (it's quite hard to guess the hidden word imo)
 
-
-⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⠉⠉⠉⣹⡿⠋⠉⠉⠉⠉⠉⠉⣿⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⠀⣠⡾⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⡾⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡾⠛⠉⠛⢿⣆⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡁⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣷⣄⣀⣠⣼⠟⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⣿⠋⠁⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣴⠾⣿⠷⢶⣤⣄⡀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠙⠋⠁⠀⠀⣿⠀⠀⠈⠉⠛⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⡿⣦⡀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡾⠋⠀⠘⢿⣆⠀⠀⠀⠀⠀
-⠀⠀⠀⣀⣀⣀⣸⣿⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠉⠁⠀⠀⠀⠀⠉⠀⠀⠀⠀⠀
-⠀⠀⠀⠉⠉⠉⠉⠉⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
 Credit to this [website](https://heartcopypaste.com/hangman-ascii-art/)
 for providing the ascii art.
