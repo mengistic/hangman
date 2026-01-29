@@ -11,9 +11,9 @@ python game.py
 ## Limitation
 These are the limitations that come from the by product of the code.
 
-- cannot type same letter twice, even if it's correct.
-- does not have indication of the letters we have typed.
-- does not have hint. (quite hard to guess imo)
+- ~~cannot type same letter twice, even if it's correct.~~
+- ~~does not have indication of the letters we have typed.~~
+- does not have hint. (it's quite hard to guess the hidden word imo)
 
 
 ⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀

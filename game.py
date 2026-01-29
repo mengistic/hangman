@@ -2,6 +2,7 @@
 
 import os
 import random
+from colorama import Fore, Style
 
 asciiart = ["" for _ in range(7)]
 asciiart[6] = r"""
@@ -200,18 +201,27 @@ def losethegame():
     print("You lose :( ")
     input("Press Enter to go back to menu.")
     clear()
-   
 
 
 
-    
+def print_colored_letters(colors, letters):
+  for i in range(len(letters)):
+    print(colors[i] + letters[i], end="")
+  print(Style.RESET_ALL)
+  
 def startgame():
     isWinning = False
     life = 5
-    hiddenword = random.choice(wordlist)
+    # hiddenword = random.choice(wordlist)
+    hiddenword = "hello"
     length = len(hiddenword)
     remainslot = len(hiddenword)
     renderword = ["_" for i in range(length)]
+
+
+    qwerty = "qwertyuiop\nasdfghjkl\nzxcvbnm"
+    colors = [Fore.WHITE for i in range(len(qwerty))]
+
 
     ### game loop
     while life>0:
@@ -220,17 +230,25 @@ def startgame():
             break
 
         display(life, renderword)
+        print_colored_letters(colors, qwerty)
         guess = input("Guess the letter: ")
         our_guess = False
 
         if guess!="":
             for i in range(length):
-                if renderword[i]=="_" and guess==hiddenword[i]:
+                if guess==hiddenword[i]:
                     our_guess = True
                     remainslot = remainslot - 1
                     renderword[i] = guess
             if our_guess==False:
                 life = life-1
+
+        ## determine how to print the qwerty keyboard
+        for i in range(26):
+          if guess == qwerty[i]:
+            colors[i] = Fore.GREEN if our_guess else Fore.RED
+
+
 
     ### displaying win/lose message
     display(life, renderword)
