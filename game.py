@@ -212,8 +212,7 @@ def print_colored_letters(colors, letters):
 def startgame():
     isWinning = False
     life = 5
-    # hiddenword = random.choice(wordlist)
-    hiddenword = "hello"
+    hiddenword = random.choice(wordlist)
     length = len(hiddenword)
     remainslot = len(hiddenword)
     renderword = ["_" for i in range(length)]
